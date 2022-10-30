@@ -1,1 +1,1 @@
-web: gunicorn todo_project.wsgi --log-file -
+web: gunicorn slack_api.wsgi --log-file -
