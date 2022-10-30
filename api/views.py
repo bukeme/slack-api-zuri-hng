@@ -8,7 +8,7 @@ def slack_info_api(request, *args, **kwargs):
 	data = {
 		'slackUsername': 'UkemeB',
 		'backend': True,
-		'age': 'number',
+		'age': 19,
 		'bio': 'I am a Django Developer',
 	}
 	return JsonResponse(data)
